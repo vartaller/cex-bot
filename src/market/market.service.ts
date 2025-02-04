@@ -7,8 +7,9 @@ dotenv.config();
 @Injectable()
 export class MarketService implements OnModuleInit {
   onModuleInit() {
-    console.log('MarketClient has been initialized!');
-    this.scanMarketData().then((r) => console.log('finished'));
+    console.log('MarketClient is sleeping...');
+    // console.log('MarketClient has been initialized!');
+    // this.scanMarketData().then((r) => console.log('finished'));
   }
 
   private ws: WebsocketClient;
