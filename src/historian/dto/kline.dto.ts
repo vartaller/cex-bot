@@ -1,5 +1,4 @@
 export class KlineOutputDto {
-  requestId: number;
   date: string;
   open: number;
   high: number;
