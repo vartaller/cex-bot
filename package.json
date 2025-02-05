@@ -27,6 +27,7 @@
     "@solana/web3.js": "^1.98.0",
     "bigint-buffer": "^1.1.5",
     "bybit-api": "^3.10.31",
+    "csv-writer": "^1.6.0",
     "dotenv": "^16.4.7",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0",
